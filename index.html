@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,4 +48,53 @@
     </script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav ul {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <img class="img"
+        src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20241019_CUP003.jpg"
+        alt="" width="100px">
+
+    <br>
+    <button id="myButton">Click Me</button>
+    <script>
+
+        var button = document.getElementById("myButton");
+        var img = document.querySelector(".img");
+        button.addEventListener("click", function () {
+            alert("Button clicked!");
+            img.style.width = "200px";
+        });
+    </script>
+</body>
+
+>>>>>>> 72adb75 (added alert when the button is clicked.)
 </html>
