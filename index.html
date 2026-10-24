@@ -28,7 +28,20 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </div>
-    <img src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20241019_CUP003.jpg" alt="">
+    <img class="img"
+        src="https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/content-assets/images/20241019_CUP003.jpg"
+        alt="" width="100px">
+
+    <br>
+    <button id="myButton">Click Me</button>
+    <script>
+
+        var button = document.getElementById("myButton");
+        var img = document.querySelector(".img");
+        button.addEventListener("click", function () {
+            img.style.width = "200px";
+        });
+    </script>
 </body>
 
 </html>
